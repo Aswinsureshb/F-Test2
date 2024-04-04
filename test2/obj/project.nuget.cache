@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "saJP0Bj+Ecl5eMLODsvotyMvo3I1ROQ7CH4iTtTk2VsJPG9kDsi7zPE+/wBCjTbkDj+p/AMsBS2HBn1t/N9Ggw==",
+  "success": true,
+  "projectFilePath": "D:\\F#Test2\\test2\\test2.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aswin\\.nuget\\packages\\fsharp.core\\8.0.200\\fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
