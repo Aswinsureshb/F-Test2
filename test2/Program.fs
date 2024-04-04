@@ -49,7 +49,7 @@ let durationHours = List.map (fun film -> transformDuration film.Duration) films
 printfn "Movies along with their durations in hours:"
 List.iter (fun film -> 
     let duration = transformDuration film.Duration
-    printfn "- %s: %s" film.Name duration) films
+    printfn "- %s: %s" film.Name duration ) films
 
 printfn "Presumed Oscar-winning films:"
 List.iter (fun film -> printfn "- %s" film.Name) presumedOscar
@@ -60,7 +60,7 @@ List.iteri (fun i film ->
     printfn "- %s: %s" film.Name duration) presumedOscar
 
 
-printfn "Oscar-winning movies with their durations and ratings:"
+printfn "Oscar-winning movies with their durations ratings and directors:"
 List.iter (fun film -> 
     let duration = transformDuration film.Duration
-    printfn "- %s: Duration: %s, Rating: %.1f" film.Name duration film.IMDBRanking) presumedOscar
+    printfn "- %s: Duration: %s, Rating: %.1f, %s" film.Name duration film.IMDBRanking film.FilmMaker.Name) presumedOscar
