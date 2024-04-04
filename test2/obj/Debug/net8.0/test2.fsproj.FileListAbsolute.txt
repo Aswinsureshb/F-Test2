@@ -27,3 +27,4 @@ D:\F#Test2\test2\obj\Debug\net8.0\refint\test2.dll
 D:\F#Test2\test2\obj\Debug\net8.0\test2.pdb
 D:\F#Test2\test2\obj\Debug\net8.0\test2.genruntimeconfig.cache
 D:\F#Test2\test2\obj\Debug\net8.0\ref\test2.dll
+D:\F#Test2\test2\obj\Debug\net8.0\test2.sourcelink.json

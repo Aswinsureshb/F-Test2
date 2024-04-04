@@ -58,3 +58,9 @@ printfn "Presumed Oscar-winning films with their durations in hours:"
 List.iteri (fun i film -> 
     let duration = List.item i durationHours
     printfn "- %s: %s" film.Name duration) presumedOscar
+
+
+printfn "Oscar-winning movies with their durations and ratings:"
+List.iter (fun film -> 
+    let duration = transformDuration film.Duration
+    printfn "- %s: Duration: %s, Rating: %.1f" film.Name duration film.IMDBRanking) presumedOscar
